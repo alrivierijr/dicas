@@ -1,7 +1,9 @@
 Serilog\
 1- Adicionar o pacote:
--  dotnet add package Serilog.AspNetCore
--  dotnet add package Serilog.Sinks.File
+```
+dotnet add package Serilog.AspNetCore
+dotnet add package Serilog.Sinks.File
+```
   
 2- Alterar o arquivo Program.cs:
 ```
