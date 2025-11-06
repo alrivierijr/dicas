@@ -1,4 +1,4 @@
-Serilog\
+Serilog - Log mais profissional com escrita em arquivo\
 1- Adicionar o pacote:
 ```
 dotnet add package Serilog.AspNetCore
