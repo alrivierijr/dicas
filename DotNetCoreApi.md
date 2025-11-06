@@ -37,3 +37,5 @@ builder.Host.UseSerilog();
   }
 }
 ```
+
+***Fonte: ChatGpt em 06112028***
