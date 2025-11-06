@@ -1,11 +1,12 @@
-Serilog - Log mais profissional com escrita em arquivo\
-1- Adicionar o pacote:
+# Serilog
+## Log mais profissional com escrita em arquivo
+### 1- Adicionar o pacote:
 ```
 dotnet add package Serilog.AspNetCore
 dotnet add package Serilog.Sinks.File
 ```
   
-2- Alterar o arquivo Program.cs:
+### 2- Alterar o arquivo Program.cs:
 ```
 using Serilog;
 
@@ -25,7 +26,7 @@ builder.Host.UseSerilog();
 
 ```
 
-3 - Alterar o arquivo appsettings.json:
+### 3 - Alterar o arquivo appsettings.json:
 ```
 {
   "Serilog": {
