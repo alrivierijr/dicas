@@ -38,4 +38,4 @@ builder.Host.UseSerilog();
 }
 ```
 
-***Fonte: ChatGpt em 06112028***
+***Fonte: ChatGpt em 06112025***
