@@ -24,6 +24,7 @@ EXCEPTION
 			WHERE regra
 	LOOP 		
 		CONTINUE WHEN campo_bool is true and campo_valor > 0;
+		...
 	END LOOP;
 ```
 ### Tipos de Raise (plsql)
