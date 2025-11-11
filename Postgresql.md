@@ -1,9 +1,13 @@
 # Dicas de Postgresql
 
+## SQL
+
 ### Colocar Máscara em Número 
 ```
 0D0000 -> inclui uma vírgula e força zero (D = Decimal / G = Grupo)
 ```
+
+## PLSQL
 
 ### Exemplo de uso de tratamento de Exceção com retorno do erro (plsql):
 ```
