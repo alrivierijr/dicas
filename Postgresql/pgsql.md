@@ -23,4 +23,6 @@ EXCEPTION
 RAISE INFO
 RAISE NOTICE
 RAISE WARNING
+
+Exemplo:  RAISE INFO '% registros', intCount;
 ```
