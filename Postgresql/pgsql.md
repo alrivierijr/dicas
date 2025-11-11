@@ -1,4 +1,4 @@
-# Dicas de Postgresql - PLSQL
+# PLSQL
 
 ### Exemplo de uso de tratamento de Exceção com retorno do erro:
 ```
