@@ -22,4 +22,9 @@ EXCEPTION
 		CONTINUE WHEN campo_bool is true and campo_valor > 0;
 	END LOOP;
 ```
-
+### Tipos de Raise (plsql)
+```
+RAISE INFO
+RAISE NOTICE
+RAISE WARNING
+```
