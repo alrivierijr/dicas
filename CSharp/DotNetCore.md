@@ -42,3 +42,9 @@ builder.Host.UseSerilog();
 
 ***Fonte: ChatGpt em 06112025***
 
+## Instalar pacote Npgsql para acessar Postgresql:
+```
+dotnet add package Npgsql
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+```
+
