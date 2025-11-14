@@ -46,5 +46,6 @@ builder.Host.UseSerilog();
 ```
 dotnet add package Npgsql
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet tool install --global dotnet-ef
 ```
 
