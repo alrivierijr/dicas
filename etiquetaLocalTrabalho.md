@@ -17,5 +17,6 @@ Não atrapalhe a concentração de quem está querendo trabalhar
 ```
 Telefone não é video-conferência
 ```
-4. Quando cumprimentar, olhe no olho, não seja mais falso que já é
+4. Quando cumprimentar, olhe no olho, não seja mais falso do que já é
+5. Quando apertar a mão para cumprimentar, aperte forte, ou dê a mão para o outro beijar
    
