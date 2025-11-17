@@ -1,5 +1,5 @@
-# Mínimo de Etiqueta no Local de Trabalho
-## Dicas para ser mais profissional :
+# Seja Mais Profissional
+### Algumas dicas para ser mais profissional ou fazer conte que é :
 
 1. Cantar, batucar na mesa com o dedo/unha / caneta ou bater os pés acompanhando a música ambiente
 ```
