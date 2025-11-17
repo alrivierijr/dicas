@@ -1,4 +1,4 @@
-# Etiqueta Local de Trabalho
+# Mínimo de Etiqueta no Local de Trabalho
 ## Evitar :
 
 1. Cantar, batucar na mesa com o dedo/unha / caneta ou bater os pés acompanhando a música ambiente
