@@ -20,4 +20,6 @@ Telefone não é video-conferência
 4. Quando cumprimentar, olhe no olho, não seja mais falso do que já é
 5. Quando apertar a mão para cumprimentar, aperte forte, ou dê a mão para o outro beijar
 6. Ao espirrar ou tossir, use lenço para barrar a baba e/ou o ranho, ninguém é obrigado a respirar isso.
-   
+7. Se não puder elogiar, não critique, procure saber o que está acontecendo, se for o caso, ajude/explique.
+8. Tirando o(s) proprietário(s), parente(s) ou agregado(s), o resto é pião e substituível.
+  
