@@ -9,10 +9,33 @@ Patch - Atualizar alguns registros
 ```
 ## Respostas
 ```
-100-199 Informação
-200-299 Sucesso
-300-399 Redirecionamento
-400-499 Erro Cliente
-500-599 Erro Servidor
+Get
+200 Ok
+404 Not Found (cliente)
+500 Internal Server Error (servidor)
+
+Post
+200 Ok
+201 Created
+500 Internal Server Error
+
+Put
+200 Ok
+201 Created
+404 Not Found
+500 Internal Server Error
+
+Delete
+200 Ok
+404 Not Found
+500 Internal Server Error
+
+observação
+1?? informativo
+2?? sucesso
+3?? redirecionamento
+4?? erro cliente
+5?? erro servidor
+
 ```
 
