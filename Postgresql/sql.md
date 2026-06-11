@@ -10,3 +10,7 @@ select row_number() over (order by nome_da_coluna_para_ordenar) AS numero_sequen
 from sua_tabela
 order by nome_da_coluna_para_ordenar;
 ```
+### Criar índice único:
+```
+create unique index nome_indice_idx on schema.tabela (campo)
+```
