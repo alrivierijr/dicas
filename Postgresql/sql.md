@@ -19,3 +19,7 @@ create unique index nome_indice_idx on schema.tabela (campo)
 ```
 DROP INDEX CONCURRENTLY IF EXISTS schema.indice;
 ```
+### Listar Atividade
+```
+select * from pg_stat_activity;
+```
