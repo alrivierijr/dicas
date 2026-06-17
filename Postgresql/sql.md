@@ -14,3 +14,8 @@ order by nome_da_coluna_para_ordenar;
 ```
 create unique index nome_indice_idx on schema.tabela (campo)
 ```
+
+### Drop Index
+```
+DROP INDEX CONCURRENTLY IF EXISTS schema.indice;
+```
