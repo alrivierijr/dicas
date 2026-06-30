@@ -1,4 +1,4 @@
 
-Esta pasta contém arquivos que pretendo criar/editar aos poucos, conforme a necessidade.
+Dicas de uso no dia-a-dia para facilitar o trabalho.
 
-J04112025
+Espero que seja útil.
