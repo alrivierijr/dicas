@@ -51,3 +51,10 @@ namespace JWebCore.Data
 builder.Services.AddDbContext<AppDbContext>(Options =>
         Options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 ```
+
+### Criar uma tabela no banco via Migrations
+```
+- Adicionar a classe no DbContext.cs
+- dotnet ef migrations add CriarTabelaNova
+- dotnet ef database update
+```
