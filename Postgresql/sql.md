@@ -23,3 +23,10 @@ DROP INDEX CONCURRENTLY IF EXISTS schema.indice;
 ```
 select * from pg_stat_activity;
 ```
+### Tirar Acentos
+```
+CREATE EXTENSION IF NOT EXISTS unaccent;
+
+CREATE INDEX IF NOT EXISTS idx_cliente_unaccent 
+ON clientes (unaccent(upper(nome)));
+```
