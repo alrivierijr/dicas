@@ -27,6 +27,8 @@ select * from pg_stat_activity;
 ```
 CREATE EXTENSION IF NOT EXISTS unaccent;
 
+obs.: pode otimizar uma tabela criando um índice:
+
 CREATE INDEX IF NOT EXISTS idx_cliente_unaccent 
 ON clientes (unaccent(upper(nome)));
 ```
