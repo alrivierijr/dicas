@@ -1,1 +1,36 @@
+using System;
+using System.Xml.Linq;
 
+// Variável simulando o seu XML em formato string
+string xmlString = @"<infCte versao='4.00' xmlns='http://portalfiscal.inf.br'>
+                        <emit>
+                            <enderEmit>
+                                <xLgr>Av. Paulista</xLgr>
+                                <nro>9999</nro>
+                                <xBairro>Bela Vista</xBairro>
+                                <xMun>Sao Paulo</xMun>
+                                <UF>SP</UF>
+                                <CEP>01310100</CEP>
+                            </enderEmit>
+                        </emit>
+                     </infCte>"; // Substitua pela sua variável real
+
+// Converte a string para um objeto XML tratável
+XDocument xml = XDocument.Parse(xmlString);
+
+// Captura o namespace obrigatório da SEFAZ
+XNamespace ns = xml.Root.Name.Namespace;
+
+// Busca o endereço do emitente usando LINQ
+var enderecoEmitente = xml.Descendants(ns + "enderEmit")
+    .Select(e => new {
+        Logradouro = (string)e.Element(ns + "xLgr"),
+        Numero     = (string)e.Element(ns + "nro"),
+        Bairro     = (string)e.Element(ns + "xBairro"),
+        Municipio  = (string)e.Element(ns + "xMun"),
+        Uf         = (string)e.Element(ns + "UF"),
+        Cep        = (string)e.Element(ns + "CEP")
+    })
+    .FirstOrDefault();
+
+Fonte.: Google Gemini
