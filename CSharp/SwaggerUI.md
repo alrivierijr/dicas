@@ -1,5 +1,8 @@
 # Configurar o Wwagger no Dotnet 8 em diante:
 ## 1- Instalar o pacote Smashbuckle.AspNetCore.Swagger.UI
+```
+dotnet add package Swashbuckle.AspNetCore.SwaggerUI
+```
 ## 2- Incluir a linha no arquivo Program.cs: 
 ```
 if (app.Environment.IsDevelopment())
