@@ -14,5 +14,6 @@ if (app.Environment.IsDevelopment())
 ## 3- incluir no arquivo launchsettings.json a linha no bloco "https" :  
 ```
 "launchUrl": "swagger",
+"launchBrowser": true,
 ```
 
